@@ -1,0 +1,13 @@
+payload:
+  - DOMAIN-SUFFIX,numb.viagenie.ca
+  - DOMAIN-SUFFIX,relay.metered.ca
+  - DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net
+
+  # 阻止 PCDN
+  - AND,((NETWORK,UDP),(DST-PORT,3478-3480))
+  - AND,((NETWORK,UDP),(DST-PORT,5349-5350))
+  - DOMAIN-KEYWORD,stun
+  - DOMAIN-KEYWORD,turn
+  - DOMAIN-KEYWORD,pcdn
+  - DOMAIN-KEYWORD,p2p
+  - DOMAIN-KEYWORD,peer

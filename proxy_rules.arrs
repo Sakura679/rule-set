@@ -1,0 +1,19 @@
+# A complete example
+name = proxy_rules
+# routing: 0 Default · 1 Direct · 2 Reject (applied on first import only)
+routing = 0
+
+# domain
+
+# domain_suffix
+2, neko.mo.cn
+2, play-cdn17.com
+2, wsyzyts.vip
+2, bohrium.com
+
+# domain_keyword
+3, ryplay
+3, libretv
+3, acck
+3, akile
+3, dytt-cinema

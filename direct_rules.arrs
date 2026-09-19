@@ -1,0 +1,17 @@
+# A complete example
+name = direct_rules
+# routing: 0 Default · 1 Direct · 2 Reject (applied on first import only)
+routing = 1
+
+# domain
+1, jkv6.fxhdns.dpdns.org
+
+# domain_suffix
+2, cycani.org
+2, cycanime.com
+2, cycmedia.net
+
+# domain_keyword
+3, bf8bf
+3, mzm
+3, wlcdn

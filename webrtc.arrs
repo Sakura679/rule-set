@@ -1,0 +1,18 @@
+# A complete example
+name = webrtc
+# routing: 0 Default · 1 Direct · 2 Reject (applied on first import only)
+routing = 0
+
+# domain
+
+# domain_suffix
+2, numb.viagenie.ca
+2, relay.metered.ca
+2, hw-v2-web-player-tracker.biliapi.net
+
+# domain_keyword
+3, stun
+3, turn
+3, pcdn
+3, p2p
+3, peer

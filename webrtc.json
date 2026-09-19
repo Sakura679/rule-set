@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "numb.viagenie.ca",
+        "relay.metered.ca",
+        "hw-v2-web-player-tracker.biliapi.net"
+      ]
+    },
+    {
+      "network": "udp",
+      "port_range": [
+        "3478:3480"
+      ]
+    },
+    {
+      "network": "udp",
+      "port_range": [
+        "5349:5350"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "stun",
+        "turn",
+        "pcdn",
+        "p2p",
+        "peer"
+      ]
+    }
+  ]
+}
