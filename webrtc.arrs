@@ -9,6 +9,10 @@ routing = 0
 2, numb.viagenie.ca
 2, relay.metered.ca
 2, hw-v2-web-player-tracker.biliapi.net
+2, mcdn.bilivideo.com
+2, mcdn.bilivideo.cn
+2, edge.mountaintoys.cn
+2, h2.smtcdns.net
 
 # domain_keyword
 3, stun

@@ -1,8 +1,14 @@
 DOMAIN-SUFFIX,numb.viagenie.ca
 DOMAIN-SUFFIX,relay.metered.ca
 DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net
+DOMAIN-SUFFIX,mcdn.bilivideo.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,edge.mountaintoys.cn
+DOMAIN-SUFFIX,h2.smtcdns.net
+
 AND,((NETWORK,UDP),(DST-PORT,3478-3480))
 AND,((NETWORK,UDP),(DST-PORT,5349-5350))
+
 DOMAIN-KEYWORD,stun
 DOMAIN-KEYWORD,turn
 DOMAIN-KEYWORD,pcdn

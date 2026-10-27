@@ -5,7 +5,11 @@
       "domain_suffix": [
         "numb.viagenie.ca",
         "relay.metered.ca",
-        "hw-v2-web-player-tracker.biliapi.net"
+        "hw-v2-web-player-tracker.biliapi.net",
+        "mcdn.bilivideo.com",
+        "mcdn.bilivideo.cn",
+        "edge.mountaintoys.cn",
+        "h2.smtcdns.net"
       ]
     },
     {

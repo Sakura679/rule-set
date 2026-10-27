@@ -2,6 +2,10 @@ payload:
   - DOMAIN-SUFFIX,numb.viagenie.ca
   - DOMAIN-SUFFIX,relay.metered.ca
   - DOMAIN-SUFFIX,hw-v2-web-player-tracker.biliapi.net
+  - DOMAIN-SUFFIX,mcdn.bilivideo.com
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,edge.mountaintoys.cn
+  - DOMAIN-SUFFIX,h2.smtcdns.net
 
   # 阻止 PCDN
   - AND,((NETWORK,UDP),(DST-PORT,3478-3480))
