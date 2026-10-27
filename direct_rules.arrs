@@ -4,7 +4,6 @@ name = direct_rules
 routing = 1
 
 # domain
-1, jkv6.fxhdns.dpdns.org
 
 # domain_suffix
 2, cycani.org
